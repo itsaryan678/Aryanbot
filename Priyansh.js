@@ -7,7 +7,7 @@ const login = require("fca-priyansh");
 const axios = require("axios");
 const listPackage = JSON.parse(readFileSync('./package.json')).dependencies;
 const listbuiltinModules = require("module").builtinModules;
-console.log(chalk.bold.hex("#00ffff").bold("[ PRIYANSH RAJPUT (PRIYANSH) ] » ") + chalk.bold.hex("#00ffff").bold("Initializing variables..."));
+console.log(chalk.bold.hex("#00ffff").bold("[ ARYAN CHAUHAN ] » ") + chalk.bold.hex("#00ffff").bold("Initializing variables..."));
 
 global.client = new Object({
     commands: new Map(),
@@ -339,9 +339,9 @@ loginApiData.setOptions(global.config.FCAOption)
         };
         if (!global.checkBan) logger(global.getText('priyansh', 'warningSourceCode'), '[ GLOBAL BAN ]');
         global.client.api = loginApiData
-        logger(`PRIYANSH`, '[ PRIYANSH (RAJPUT) ]');
-        logger('Hey, thank you for using this Bot', '[ PRIYANSH (RAJPUT) ]');
-        logger("Fixed by Priyansh", '[ PRIYANSH (RAJPUT) ]');
+        logger(`ARYAN`, '[ ARYAN CHAUHAN ]');
+        logger('Hey, thank you for using this Bot', '[ ARYAN CHAUHAN ]');
+        logger("Fixed by Aryan Chauhan", '[ ARYAN CHAUHAN ]');
       //notif if bot is kaka on palang
 const momentt = require("moment-timezone").tz("Asia/Kolkata");
     const day = momentt.day();
